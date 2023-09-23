@@ -1,0 +1,22 @@
+{
+  "name": "playwright_training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed --project=chromium",
+    "test-chrome": "npx playwright test --project=chromium",
+    "single-test": "npx playwright test example",
+    "debug-test": "npx playwright test --debug",
+    "generate-test": "npx playwright codegen",
+    "debug-headed-test": "npx playwright test --headed --project=chromium --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
+}

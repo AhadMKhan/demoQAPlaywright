@@ -1,0 +1,21 @@
+{
+    "firstName" : "Alden",
+    "lastName" : "Cantrell",
+    "email" : "test@test.com",
+    "age" : "30",
+    "salary" : "12345",
+    "department" : "QA",
+    "Gerimedica" : "Gerimedica",
+    "BV" : "BV",
+    "male" : "Male",
+    "mobileNumber" : "0123456789",
+    "dateofBirth" : "15 January 1990",
+    "subject" : "English",
+    "hobby" : "Reading",
+    "imageFilePath" : "data\\download.png",
+    "currentAddress" : "Netherlands",
+    "state" : "NCR",
+    "city" : "Delhi",
+    "formSubmissionHeading" : "Thanks for submitting the form"
+    
+}

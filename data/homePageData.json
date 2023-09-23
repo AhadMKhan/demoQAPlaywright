@@ -1,0 +1,8 @@
+{
+    "pageTitle" : "DEMOQA",
+    "baseURL" : "https://demoqa.com/",
+    "elementsPageUrl" : "https://demoqa.com/elements",
+    "formsPageUrl" : "https://demoqa.com/forms",
+    "widgetsPageUrl" : "https://demoqa.com/widgets",
+    "interactionsPageUrl" : "https://demoqa.com/interaction"
+}
