@@ -1,8 +1,6 @@
 const { test, expect, request } = require("../../fixtures/base")
 
 import * as homePageData from '../../data/homePageData.json';
-import * as userData from '../../data/userData.json';
-
 
 test.describe("Web Table Adding and Editing Data", () => {
   test.beforeEach(async ({ homePage }) => {

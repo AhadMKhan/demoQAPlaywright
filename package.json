@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --headed --project=chromium",
-    "test-chrome": "npx playwright test --project=chromium",
-    "single-test": "npx playwright test example",
-    "debug-test": "npx playwright test --debug",
+    "test": "npm run webtables && npm run brokenimage && npm run practiceform && npm run progressbar && npm run tooltip && npm run draganddrop && npm run apitest",
     "generate-test": "npx playwright codegen",
-    "debug-headed-test": "npx playwright test --headed --project=chromium --debug"
+    "debug-headed-test": "npx playwright test --headed --project=chromium --debug",
+    "webtables" : "npx playwright test 1webTables.spec.ts",
+    "brokenimage" : "npx playwright test 2brokenImage.spec.ts",
+    "practiceform" : "npx playwright test 3practiceForms.spec.ts",
+    "progressbar" : "npx playwright test 4progressBar.spec.ts",
+    "tooltip" : "npx playwright test 5toolTip.spec.ts",
+    "draganddrop" : "npx playwright test 6dragAndDrop.spec.ts",
+    "completerunui" : "npx playwright test allTestCases.spec.ts",
+    "apitest" : "npx playwright test bookstoreAPI.spec.ts"
   },
   "keywords": [],
   "author": "",

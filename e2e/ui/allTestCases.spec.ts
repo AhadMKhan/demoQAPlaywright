@@ -5,9 +5,7 @@ import * as userData from '../../data/userData.json';
 import * as toolTipData from '../../data/toolTipData.json';
 import * as dragAndDropData from '../../data/dragAndDropData.json';
 
-
-
-test.describe("Web Table Adding and Editing Data", () => {
+test.describe("Demo QA UI Testing", () => {
   test.beforeEach(async ({ homePage }) => {
   await homePage.navigateToWebsite(`${homePageData.pageTitle}`)
 

@@ -1,0 +1,9 @@
+{
+    "username" : "AhadKhan",
+    "password" : "Test@12354749",
+    "userExist" : "User exists!",
+    "authFailedMsg" : "User authorization failed.",
+    "isbn1" : "9781449365035",
+    "isbn2" : "9781449331818",
+    "isbn3" : "9781449337711"
+}

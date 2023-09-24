@@ -7,10 +7,6 @@ import { ProgressBarPage } from '../pageObjectPages/progressBarPage';
 import { ToolTipPage } from '../pageObjectPages/tootlTipPage';
 import { DragandDropPage } from '../pageObjectPages/dragAndDrop';
 
-
-
-
-
 exports.test = Base.test.extend({
     homePage: async ({ page }, use) => {
         await use ( new HomePage(page))

@@ -2,7 +2,6 @@ const { test, expect, request } = require("../../fixtures/base")
 
 import * as homePageData from '../../data/homePageData.json';
 
-
 test.describe("Verifying the Images", () => {
   test.beforeEach(async ({ homePage }) => {
   await homePage.navigateToWebsite(`${homePageData.pageTitle}`)

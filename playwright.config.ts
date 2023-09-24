@@ -51,6 +51,7 @@ const config = {
       use: {
         ...devices['Desktop Chrome'],
       },
+      reporter: 'list'
     },
 
     // {

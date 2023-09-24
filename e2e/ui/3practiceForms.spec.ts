@@ -3,7 +3,6 @@ const { test, expect, request } = require("../../fixtures/base")
 import * as homePageData from '../../data/homePageData.json';
 import * as userData from '../../data/userData.json';
 
-
 test.describe("Singup Form", () => {
   test.beforeEach(async ({ homePage }) => {
   await homePage.navigateToWebsite(`${homePageData.pageTitle}`)
